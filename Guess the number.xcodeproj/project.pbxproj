@@ -13,6 +13,11 @@
 		1B9ACEA224D36F8700D618F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9ACEA124D36F8700D618F0 /* Assets.xcassets */; };
 		1B9ACEA524D36F8700D618F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9ACEA424D36F8700D618F0 /* Preview Assets.xcassets */; };
 		1B9ACEA824D36F8700D618F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9ACEA624D36F8700D618F0 /* LaunchScreen.storyboard */; };
+		1B9ACEB324D37ED900D618F0 /* UIKitSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9ACEB224D37ED900D618F0 /* UIKitSlider.swift */; };
+		1B9ACEB524D3816200D618F0 /* BoxSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9ACEB424D3816200D618F0 /* BoxSlider.swift */; };
+		1B9ACEB724D3887B00D618F0 /* SliderValueLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9ACEB624D3887B00D618F0 /* SliderValueLabel.swift */; };
+		1B9ACEB924D3901D00D618F0 /* CheckAnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9ACEB824D3901D00D618F0 /* CheckAnswerButton.swift */; };
+		1B9ACEBB24D3974000D618F0 /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9ACEBA24D3974000D618F0 /* CancelButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		1B9ACEA424D36F8700D618F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B9ACEA724D36F8700D618F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B9ACEA924D36F8700D618F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9ACEB224D37ED900D618F0 /* UIKitSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitSlider.swift; sourceTree = "<group>"; };
+		1B9ACEB424D3816200D618F0 /* BoxSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxSlider.swift; sourceTree = "<group>"; };
+		1B9ACEB624D3887B00D618F0 /* SliderValueLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderValueLabel.swift; sourceTree = "<group>"; };
+		1B9ACEB824D3901D00D618F0 /* CheckAnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAnswerButton.swift; sourceTree = "<group>"; };
+		1B9ACEBA24D3974000D618F0 /* CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +66,15 @@
 		1B9ACE9A24D36F8500D618F0 /* Guess the number */ = {
 			isa = PBXGroup;
 			children = (
-				1B9ACE9B24D36F8500D618F0 /* AppDelegate.swift */,
-				1B9ACE9D24D36F8500D618F0 /* SceneDelegate.swift */,
 				1B9ACE9F24D36F8500D618F0 /* ContentView.swift */,
-				1B9ACEA124D36F8700D618F0 /* Assets.xcassets */,
-				1B9ACEA624D36F8700D618F0 /* LaunchScreen.storyboard */,
-				1B9ACEA924D36F8700D618F0 /* Info.plist */,
+				1B9ACEB424D3816200D618F0 /* BoxSlider.swift */,
+				1B9ACEB224D37ED900D618F0 /* UIKitSlider.swift */,
+				1B9ACEB624D3887B00D618F0 /* SliderValueLabel.swift */,
+				1B9ACEB824D3901D00D618F0 /* CheckAnswerButton.swift */,
+				1B9ACEBA24D3974000D618F0 /* CancelButton.swift */,
+				1B9ACEB024D36FB700D618F0 /* Source */,
+				1B9ACEAF24D36FAC00D618F0 /* Storyboard */,
+				1B9ACEB124D36FC700D618F0 /* Other */,
 				1B9ACEA324D36F8700D618F0 /* Preview Content */,
 			);
 			path = "Guess the number";
@@ -73,6 +86,32 @@
 				1B9ACEA424D36F8700D618F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B9ACEAF24D36FAC00D618F0 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1B9ACEA624D36F8700D618F0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		1B9ACEB024D36FB700D618F0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1B9ACEA124D36F8700D618F0 /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1B9ACEB124D36FC700D618F0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1B9ACE9B24D36F8500D618F0 /* AppDelegate.swift */,
+				1B9ACE9D24D36F8500D618F0 /* SceneDelegate.swift */,
+				1B9ACEA924D36F8700D618F0 /* Info.plist */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B9ACEB524D3816200D618F0 /* BoxSlider.swift in Sources */,
 				1B9ACE9C24D36F8500D618F0 /* AppDelegate.swift in Sources */,
 				1B9ACE9E24D36F8500D618F0 /* SceneDelegate.swift in Sources */,
+				1B9ACEB724D3887B00D618F0 /* SliderValueLabel.swift in Sources */,
+				1B9ACEB924D3901D00D618F0 /* CheckAnswerButton.swift in Sources */,
+				1B9ACEB324D37ED900D618F0 /* UIKitSlider.swift in Sources */,
 				1B9ACEA024D36F8500D618F0 /* ContentView.swift in Sources */,
+				1B9ACEBB24D3974000D618F0 /* CancelButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +332,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Guess the number/Preview Content\"";
 				DEVELOPMENT_TEAM = 34VDSPZYU9;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Guess the number/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Guess the number/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +352,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Guess the number/Preview Content\"";
 				DEVELOPMENT_TEAM = 34VDSPZYU9;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Guess the number/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Guess the number/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
